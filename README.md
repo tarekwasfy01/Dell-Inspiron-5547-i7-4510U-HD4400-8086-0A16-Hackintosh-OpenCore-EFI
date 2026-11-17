@@ -77,3 +77,15 @@ Only a sanitized copy is prepared for publication. Serial number, MLB, SystemUUI
 - [sokdiff/Inspiron-15-5547-hackintosh](https://github.com/sokdiff/Inspiron-15-5547-hackintosh): older Clover/ApplePS2 reference; its legacy driver is not enabled in this snapshot.
 
 See [third-party component notes](THIRD_PARTY.md). Bundled components retain their upstream licenses; this repository does not relicense them.
+
+## Function-key mapping
+
+| Key | Action | Status |
+| --- | --- | --- |
+| F1 | Mute | Configured; hardware test pending |
+| F2 | Volume down | Configured; hardware test pending |
+| F3 | Volume up | Configured; hardware test pending |
+| F11 | Brightness down | Configured; hardware test pending |
+| F12 | Brightness up | Configured; hardware test pending |
+
+VoodooPS2Keyboard Custom ADB Map handles standard F-key and Dell multimedia scan codes. Audio output and display brightness must work independently for the actions to have an effect. Fn-lock/firmware settings can affect which physical combination sends a code. The original keyboard-only controller setup is preserved.
