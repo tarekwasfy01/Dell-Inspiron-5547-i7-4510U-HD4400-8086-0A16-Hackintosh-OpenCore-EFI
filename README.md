@@ -2,7 +2,7 @@
 
 OpenCore 1.0.9 configuration for a Dell Inspiron 15 5547 targeting macOS Tahoe 26. Includes the complete EFI and all kext bundles from the working Recovery snapshot. Based on a NullMoth 1401-generated configuration, with native Intel Wi-Fi and a keyboard-only PS/2 test.
 
-**Status: owner reached installed Tahoe; graphics acceleration and shutdown remain unresolved.** This is a work in progress, not a fully tested installation guide. Last updated: 17 November 2026.
+**Status: owner confirms working graphics acceleration, Bluetooth, function keys, and shutdown.** This is a work in progress, not a fully tested installation guide. Last updated: 17 November 2026.
 
 ## Hardware
 
@@ -32,15 +32,15 @@ OpenCore 1.0.9 configuration for a Dell Inspiron 15 5547 targeting macOS Tahoe 2
 | Touchpad | ✅ Confirmed in Recovery | Owner confirmed working; every gesture not verified |
 | Internal keyboard | ✅ Confirmed | Owner confirmed working after `ps2kbdonly=1`; PS/2 mouse/trackpad plugins disabled |
 | Intel graphics display output | ✅ Recovery displays | This does not establish acceleration |
-| GPU acceleration / Metal | ⏳ Not yet confirmed | HD 4600 device-ID spoof configured; compatible Haswell root patches still required for Tahoe |
+| GPU acceleration / Metal | ✅ Confirmed by owner | Intel HD 4400 acceleration is active; exact Metal feature set not independently measured |
 | AMD discrete GPU | ❌ Disabled | Not used for display or acceleration |
 | Ethernet | ✅ Confirmed working | Owner confirmed Ethernet works with RealtekRTL8100 2.0.1 |
-| Audio | ⏳ Not confirmed | No working Tahoe audio setup has been demonstrated |
-| Bluetooth | ⏳ Not tested | Firmware and support kexts are included |
+| Audio and microphone | ✅ Confirmed by owner | Owner reports working audio output and microphone |
+| Bluetooth | ✅ Confirmed by owner | Owner reports Bluetooth working |
 | Brightness, webcam, card reader, HDMI | ⏳ Not tested | Inclusion of a driver does not prove functionality |
 | Sleep / wake / all USB ports | ⏳ Not tested | UTBDefault is a temporary map, not a custom port map |
 | Full Tahoe installation | ✅ Owner reached installed macOS | GPU root patching and shutdown issue remain open |
-| Shutdown | ❌ Kernel panic reported | Panic report required; no speculative ACPI patch applied |
+| Shutdown | ✅ Confirmed by owner | No shutdown panic now |
 | Ubuntu in OpenCore | ⏳ Configured; boot test pending | OpenLinuxBoot and ext4 driver enabled |
 
 ## Configuration notes
@@ -82,10 +82,10 @@ See [third-party component notes](THIRD_PARTY.md). Bundled components retain the
 
 | Key | Action | Status |
 | --- | --- | --- |
-| F1 | Mute | Configured; hardware test pending |
-| F2 | Volume down | Configured; hardware test pending |
-| F3 | Volume up | Configured; hardware test pending |
-| F11 | Brightness down | Configured; hardware test pending |
-| F12 | Brightness up | Configured; hardware test pending |
+| F1 | Mute | ✅ Confirmed by owner |
+| F2 | Volume down | ✅ Confirmed by owner |
+| F3 | Volume up | ✅ Confirmed by owner |
+| F11 | Brightness down | ✅ Confirmed by owner |
+| F12 | Brightness up | ✅ Confirmed by owner |
 
-VoodooPS2Keyboard Custom ADB Map handles standard F-key and Dell multimedia scan codes. Audio output and display brightness must work independently for the actions to have an effect. Fn-lock/firmware settings can affect which physical combination sends a code. The original keyboard-only controller setup is preserved.
+VoodooPS2Keyboard Custom ADB Map handles standard F-key and Dell multimedia scan codes. The owner confirms the requested mute, volume, and brightness keys work. The original keyboard-only controller setup is preserved.
