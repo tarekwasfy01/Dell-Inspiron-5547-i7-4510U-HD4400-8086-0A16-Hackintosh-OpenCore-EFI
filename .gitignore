@@ -1,0 +1,7 @@
+opencore-*.txt
+panic-*.txt
+*.dmg
+*.chunklist
+*.pkg
+*.part
+.DS_Store

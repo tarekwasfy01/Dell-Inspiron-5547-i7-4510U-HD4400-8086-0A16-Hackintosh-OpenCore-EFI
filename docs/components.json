@@ -1,0 +1,219 @@
+[
+  {
+    "bundle": "Lilu.kext",
+    "version": "1.7.3",
+    "enabled": true,
+    "minKernel": "",
+    "maxKernel": ""
+  },
+  {
+    "bundle": "AMFIPass.kext",
+    "version": "1.4.1",
+    "enabled": true,
+    "minKernel": "20.0.0",
+    "maxKernel": ""
+  },
+  {
+    "bundle": "BlueToolFixup.kext",
+    "version": "2.7.3",
+    "enabled": true,
+    "minKernel": "21.0.0",
+    "maxKernel": ""
+  },
+  {
+    "bundle": "BrightnessKeys.kext",
+    "version": "1.0.4",
+    "enabled": true,
+    "minKernel": "",
+    "maxKernel": ""
+  },
+  {
+    "bundle": "ECEnabler.kext",
+    "version": "1.0.6",
+    "enabled": true,
+    "minKernel": "",
+    "maxKernel": ""
+  },
+  {
+    "bundle": "IntelBTPatcher.kext",
+    "version": "2.5.0",
+    "enabled": true,
+    "minKernel": "",
+    "maxKernel": ""
+  },
+  {
+    "bundle": "IntelBluetoothFirmware.kext",
+    "version": "2.5.0",
+    "enabled": true,
+    "minKernel": "",
+    "maxKernel": ""
+  },
+  {
+    "bundle": "RealtekCardReader.kext",
+    "version": "0.9.8",
+    "enabled": true,
+    "minKernel": "",
+    "maxKernel": ""
+  },
+  {
+    "bundle": "RealtekRTL8100.kext",
+    "version": "2.0.1",
+    "enabled": true,
+    "minKernel": "",
+    "maxKernel": ""
+  },
+  {
+    "bundle": "RestrictEvents.kext",
+    "version": "1.1.7",
+    "enabled": true,
+    "minKernel": "",
+    "maxKernel": ""
+  },
+  {
+    "bundle": "VirtualSMC.kext",
+    "version": "1.3.9",
+    "enabled": true,
+    "minKernel": "",
+    "maxKernel": ""
+  },
+  {
+    "bundle": "SMCBatteryManager.kext",
+    "version": "1.3.9",
+    "enabled": true,
+    "minKernel": "",
+    "maxKernel": ""
+  },
+  {
+    "bundle": "SMCDellSensors.kext",
+    "version": "1.3.9",
+    "enabled": true,
+    "minKernel": "",
+    "maxKernel": ""
+  },
+  {
+    "bundle": "SMCLightSensor.kext",
+    "version": "1.3.9",
+    "enabled": true,
+    "minKernel": "",
+    "maxKernel": ""
+  },
+  {
+    "bundle": "SMCProcessor.kext",
+    "version": "1.3.9",
+    "enabled": true,
+    "minKernel": "",
+    "maxKernel": ""
+  },
+  {
+    "bundle": "SMCSuperIO.kext",
+    "version": "1.3.9",
+    "enabled": true,
+    "minKernel": "",
+    "maxKernel": ""
+  },
+  {
+    "bundle": "USBToolBox.kext",
+    "version": "1.2.0",
+    "enabled": true,
+    "minKernel": "",
+    "maxKernel": ""
+  },
+  {
+    "bundle": "UTBDefault.kext",
+    "version": "1.0",
+    "enabled": true,
+    "minKernel": "",
+    "maxKernel": ""
+  },
+  {
+    "bundle": "VoodooI2C.kext/Contents/PlugIns/VoodooI2CServices.kext",
+    "version": "1",
+    "enabled": true,
+    "minKernel": "",
+    "maxKernel": ""
+  },
+  {
+    "bundle": "VoodooI2C.kext/Contents/PlugIns/VoodooGPIO.kext",
+    "version": "1.1",
+    "enabled": true,
+    "minKernel": "",
+    "maxKernel": ""
+  },
+  {
+    "bundle": "VoodooI2C.kext",
+    "version": "2.9.1",
+    "enabled": true,
+    "minKernel": "",
+    "maxKernel": ""
+  },
+  {
+    "bundle": "VoodooI2C.kext/Contents/PlugIns/VoodooInput.kext",
+    "version": "1.1.7",
+    "enabled": true,
+    "minKernel": "",
+    "maxKernel": ""
+  },
+  {
+    "bundle": "VoodooI2CHID.kext",
+    "version": "1",
+    "enabled": true,
+    "minKernel": "",
+    "maxKernel": ""
+  },
+  {
+    "bundle": "VoodooPS2Controller.kext",
+    "version": "2.3.8",
+    "enabled": true,
+    "minKernel": "",
+    "maxKernel": ""
+  },
+  {
+    "bundle": "VoodooPS2Controller.kext/Contents/PlugIns/VoodooInput.kext",
+    "version": "1.1.7",
+    "enabled": false,
+    "minKernel": "",
+    "maxKernel": ""
+  },
+  {
+    "bundle": "VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Keyboard.kext",
+    "version": "2.3.8",
+    "enabled": true,
+    "minKernel": "",
+    "maxKernel": ""
+  },
+  {
+    "bundle": "VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Mouse.kext",
+    "version": "2.3.8",
+    "enabled": false,
+    "minKernel": "",
+    "maxKernel": ""
+  },
+  {
+    "bundle": "VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Trackpad.kext",
+    "version": "2.3.8",
+    "enabled": false,
+    "minKernel": "",
+    "maxKernel": ""
+  },
+  {
+    "bundle": "WhateverGreen.kext",
+    "version": "1.7.2",
+    "enabled": true,
+    "minKernel": "",
+    "maxKernel": ""
+  },
+  {
+    "bundle": "itlwm.kext",
+    "version": "2.3.0",
+    "enabled": false,
+    "minKernel": "",
+    "maxKernel": ""
+  },
+  {
+    "bundle": "AirportItlwm.kext",
+    "version": "2.4.0",
+    "enabled": true,
+    "minKernel": "25.0.0",
+    "maxKernel": "25.99.99"
+  }
+]
