@@ -3,7 +3,7 @@
   "ocvalidate": {
     "ok": true,
     "issues": 0,
-    "text": "NOTE: This version of ocvalidate is only compatible with OpenCore version 1.0.9!\n\n\nCompleted validating config.plist in 5 ms. No issues found."
+    "text": "NOTE: This version of ocvalidate is only compatible with OpenCore version 1.0.9!\n\n\nCompleted validating config.plist in 1 ms. No issues found."
   },
   "invariants": [
     "PlatformInfo.Generic.SystemSerialNumber is empty",
