@@ -34,7 +34,7 @@ OpenCore 1.0.9 configuration for a Dell Inspiron 15 5547 targeting macOS Tahoe 2
 | Intel graphics display output | ✅ Recovery displays | This does not establish acceleration |
 | GPU acceleration / Metal | ⏳ Not yet confirmed | HD 4600 device-ID spoof configured; compatible Haswell root patches still required for Tahoe |
 | AMD discrete GPU | ❌ Disabled | Not used for display or acceleration |
-| Ethernet | ❌ Reported not working in Recovery | RealtekRTL8100 2.0.1 is included and enabled; unresolved |
+| Ethernet | ✅ Confirmed working | Owner confirmed Ethernet works with RealtekRTL8100 2.0.1 |
 | Audio | ⏳ Not confirmed | No working Tahoe audio setup has been demonstrated |
 | Bluetooth | ⏳ Not tested | Firmware and support kexts are included |
 | Brightness, webcam, card reader, HDMI | ⏳ Not tested | Inclusion of a driver does not prove functionality |
